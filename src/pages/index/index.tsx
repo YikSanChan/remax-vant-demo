@@ -1,21 +1,21 @@
 import * as React from 'react';
-import { View, Text, Image } from 'remax/wechat';
+import { View } from 'remax/wechat';
 import styles from './index.css';
+import VantGrid from "@vant/weapp/dist/grid";
+import VantGridItem from "@vant/weapp/dist/grid-item";
 
 export default () => {
   return (
     <View className={styles.app}>
-      <View className={styles.header}>
-        <Image
-          src="https://gw.alipayobjects.com/mdn/rms_b5fcc5/afts/img/A*OGyZSI087zkAAAAAAAAAAABkARQnAQ"
-          className={styles.logo}
-          alt="logo"
-        />
-        <View className={styles.text}>
-          编辑 <Text className={styles.path}>src/pages/index/index.js</Text>{' '}
-          开始
-        </View>
-      </View>
+      <VantGrid column-num={7} border={false}>
+      <VantGridItem key="1" text="Mon" custom-class="color:red" />
+      <VantGridItem key="2" text="Tue" custom-class="background-color:red"/>
+      <VantGridItem key="3" text="Wed" text-class="color:red" />
+      <VantGridItem key="4" text="Thu" />
+      <VantGridItem key="5" text="Fri" />
+      <VantGridItem key="6" text="Sat" />
+      <VantGridItem key="7" text="Sun" />
+      </VantGrid>
     </View>
   );
 };
