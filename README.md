@@ -1,33 +1,3 @@
-# Remax Wechat With TypeScript
+根据[code](https://github.com/YikSanChan/remax-vant-demo/blob/master/src/pages/index/index.tsx#L11)，预期grid-item有style，但实际上无style，如下：
 
-使用 Remax 开发微信小程序。
-
-## Getting Start
-
-安装依赖
-
-```bash
-npm install
-```
-
-调试项目
-
-```bash
-# 执行调试命令
-$ npm run dev
-or
-yarn dev
-```
-
-使用小程序开发者工具打开项目下的 `dist` 目录
-
-## 构建
-
-```bash
-# 执行构建命令
-$ npm run build
-or
-$ yarn build
-```
-
-使用小程序开发者工具打开项目下的 `dist` 目录，上传代码即可。
+![pic](https://user-images.githubusercontent.com/17229109/82404739-e7f87800-9a16-11ea-8ff3-2e2e64c14a88.png)
