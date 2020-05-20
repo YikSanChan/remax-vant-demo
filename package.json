@@ -1,0 +1,24 @@
+{
+  "name": "remax-vant-demo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Remax Project With TypeScript",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Evan Chan <evan.chanyiksan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "remax build -t wechat -w",
+    "build": "cross-env NODE_ENV=production remax build -t wechat"
+  },
+  "dependencies": {
+    "@vant/weapp": "^1.3.0",
+    "react": "^16.12.0",
+    "remax": "^2.0.7"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.16",
+    "cross-env": "^7.0.2",
+    "typescript": "^3.7.3"
+  }
+}
