@@ -2,3 +2,7 @@
   text-align: center;
   padding: 0 24px;
 }
+
+.grid-item-color {
+  color: red;
+}
